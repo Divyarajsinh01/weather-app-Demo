@@ -70,7 +70,7 @@ app.set('views', viewsPath)
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
-        text: 'Rundra IT Hub'
+        text: 'Divyarajsinh Rayjada'
     })
 })
 
@@ -79,7 +79,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About',
-        text: 'Rundra IT Hub'
+        text: 'Divyarajsinh Rayjada'
     })
 })
 
